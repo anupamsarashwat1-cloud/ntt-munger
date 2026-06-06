@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NTT Munger</title>
+  <meta name="description" content="Enroll in the Nursery Teacher's Training (NTT) Certification at BRM College, Munger (Study Centre-6550), organized by A-1 Udyamita Vikas Kendra, Patna and sponsored by AIECCE." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <div class="nav-logo-icon">🎓</div>
+        <div class="nav-logo-text">
+          <span class="nav-college">Nursery Teachers Training (N.T.T)</span>
+          <span class="nav-sub">B.R.M College, Munger</span>
+        </div>
+      </div>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about"         class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#accreditation" class="nav-link" data-i18n="nav.accreditation">Accreditation</a>
+        <a href="#curriculum"    class="nav-link" data-i18n="nav.curriculum">Curriculum</a>
+        <a href="#eligibility"   class="nav-link" data-i18n="nav.eligibility">Eligibility</a>
+        <a href="#contact"       class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <!-- ── Toggle Buttons ── -->
+      <div class="nav-toggles">
+        <button class="toggle-btn theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="toggle-btn lang-toggle" id="lang-toggle" aria-label="Switch language" title="Switch to Hindi / English">
+          <span id="lang-label">हिं</span>
+        </button>
+      </div>
+
+      <a href="#apply" class="nav-cta" id="nav-apply-btn" data-i18n="nav.apply">Apply Now</a>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="nav-mobile-menu" id="nav-mobile-menu" aria-hidden="true">
+      <a href="#about"         class="nav-link" data-i18n="nav.about">About</a>
+      <a href="#accreditation" class="nav-link" data-i18n="nav.accreditation">Accreditation</a>
+      <a href="#curriculum"    class="nav-link" data-i18n="nav.curriculum">Curriculum</a>
+      <a href="#eligibility"   class="nav-link" data-i18n="nav.eligibility">Eligibility</a>
+      <a href="#contact"       class="nav-link" data-i18n="nav.contact">Contact</a>
+      <div class="mobile-toggles">
+        <button class="toggle-btn theme-toggle" id="theme-toggle-mob" aria-label="Toggle dark mode">
+          <span class="mob-theme-icon">🌙</span> <span data-i18n="toggle.theme">Dark Mode</span>
+        </button>
+        <button class="toggle-btn lang-toggle" id="lang-toggle-mob" aria-label="Switch language">
+          <span class="mob-lang-icon">🌐</span> <span data-i18n="toggle.lang">Switch to Hindi</span>
+        </button>
+      </div>
+      <a href="#apply" class="nav-cta" style="margin-top:0.75rem; display:inline-block;" data-i18n="nav.apply">Apply Now</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <section class="hero" id="hero" aria-label="Hero section">
+      <div class="hero-bg-shape hero-shape-1"></div>
+      <div class="hero-bg-shape hero-shape-2"></div>
+      <div class="hero-inner">
+
+        <div class="hero-content" data-animate="fade-up">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="hero.badge">Admissions Open 2025–26</span>
+          </div>
+          <h1 class="hero-headline" data-i18n-html="hero.headline">
+            Shape the <em class="hero-em">Future</em> of<br />Early Education
+          </h1>
+          <p class="hero-subheadline" data-i18n-html="hero.subheadline">
+            Enroll in the <strong>1-Year Diploma</strong> or <strong>2-Year Advance Diploma</strong> in NTT at BRM College, Munger and become a nationally recognized Nursery Teacher.
+          </p>
+
+          <div class="hero-pills">
+            <span class="pill pill-navy"  data-i18n="hero.pill1">🏛 AIECCE Sponsored</span>
+            <span class="pill pill-ruby"  data-i18n="hero.pill2">📜 Govt. of India Recognized</span>
+            <span class="pill pill-gold"  data-i18n="hero.pill3">🌐 IAO Accredited</span>
+          </div>
+
+          <div class="hero-cta-row">
+            <a href="#apply" class="btn btn-primary" id="hero-apply-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+              <span data-i18n="hero.cta1">Apply Now</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number" style="font-size: 1.2rem; margin-bottom: 0.25rem;" data-i18n="hero.stat1Val">Thousands of</div>
+              <span class="stat-label" data-i18n="hero.stat1">Graduates</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+              <span class="stat-label" data-i18n="hero.stat2">Years of Excellence</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <div class="stat-number" style="font-size: 1.2rem; margin-bottom: 0.25rem;" data-i18n="hero.stat3Val">High</div>
+              <span class="stat-label" data-i18n="hero.stat3">Placement Rate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap" data-animate="fade-left">
+          <div class="hero-img-glow"></div>
+          <div class="hero-img-card">
+            <img src="ntt_teacher_hero_1779887854321.png"
+              alt="Professional nursery teacher interacting joyfully with toddlers in a bright, modern classroom"
+              class="hero-img" width="620" height="520" fetchpriority="high" />
+            <div class="hero-img-badge">
+              <div class="img-badge-icon">⭐</div>
+              <div>
+                <div class="img-badge-title" data-i18n="hero.badgeTitle">Top Rated Program</div>
+                <div class="img-badge-sub"   data-i18n="hero.badgeSub">Trusted by 2000+ Educators</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ OFFICIAL POSTER ═══════════════ -->
+    <section class="poster-section" id="poster" aria-label="Official Announcement Poster">
+      <div class="section-inner" style="text-align: center;">
+        <div class="poster-container" data-animate="fade-up">
+          <img src="assets/images/poster.jpg" alt="NTT Admission Open 2026 Poster" class="official-poster">
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PHOTO GALLERY ═══════════════ -->
+    <section class="gallery-section" id="gallery" aria-label="Photo Gallery">
+      <div class="section-inner">
+        <div style="text-align: center; margin-bottom: 2rem;" data-animate="fade-up">
+          <h2 class="section-title" data-i18n="gallery.title">Memories & Highlights</h2>
+          <p class="section-desc" data-i18n="gallery.desc">A glimpse into our campus life, events, and ceremonies.</p>
+        </div>
+        <div class="slideshow-container" data-animate="fade-up">
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-1.jpg" alt="Gallery Image 1">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-2.jpg" alt="Gallery Image 2">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-3.jpg" alt="Gallery Image 3">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-4.png" alt="Gallery Image 4">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-5.jpg" alt="Gallery Image 5">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-6.jpg" alt="Gallery Image 6">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-7.jpg" alt="Gallery Image 7">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-8.jpg" alt="Gallery Image 8">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-9.png" alt="Gallery Image 9">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-10.png" alt="Gallery Image 10">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-11.jpg" alt="Gallery Image 11">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-12.jpg" alt="Gallery Image 12">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-13.jpg" alt="Gallery Image 13">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-14.jpg" alt="Gallery Image 14">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-15.png" alt="Gallery Image 15">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-16.png" alt="Gallery Image 16">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-17.png" alt="Gallery Image 17">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-18.jpg" alt="Gallery Image 18">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-19.jpg" alt="Gallery Image 19">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-20.jpg" alt="Gallery Image 20">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-21.png" alt="Gallery Image 21">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-22.png" alt="Gallery Image 22">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-23.png" alt="Gallery Image 23">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-24.png" alt="Gallery Image 24">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-25.png" alt="Gallery Image 25">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-26.png" alt="Gallery Image 26">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-27.png" alt="Gallery Image 27">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-28.png" alt="Gallery Image 28">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-29.png" alt="Gallery Image 29">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-30.png" alt="Gallery Image 30">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-31.png" alt="Gallery Image 31">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-32.png" alt="Gallery Image 32">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-33.png" alt="Gallery Image 33">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-34.png" alt="Gallery Image 34">
+          </div>
+          <div class="slide fade">
+            <img src="assets/images/gallery/gallery-35.png" alt="Gallery Image 35">
+          </div>
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center; margin-top: 1rem;" data-animate="fade-up">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+          <span class="dot" onclick="currentSlide(8)"></span> 
+          <span class="dot" onclick="currentSlide(9)"></span> 
+          <span class="dot" onclick="currentSlide(10)"></span> 
+          <span class="dot" onclick="currentSlide(11)"></span> 
+          <span class="dot" onclick="currentSlide(12)"></span> 
+          <span class="dot" onclick="currentSlide(13)"></span> 
+          <span class="dot" onclick="currentSlide(14)"></span> 
+          <span class="dot" onclick="currentSlide(15)"></span> 
+          <span class="dot" onclick="currentSlide(16)"></span> 
+          <span class="dot" onclick="currentSlide(17)"></span> 
+          <span class="dot" onclick="currentSlide(18)"></span> 
+          <span class="dot" onclick="currentSlide(19)"></span> 
+          <span class="dot" onclick="currentSlide(20)"></span> 
+          <span class="dot" onclick="currentSlide(21)"></span> 
+          <span class="dot" onclick="currentSlide(22)"></span> 
+          <span class="dot" onclick="currentSlide(23)"></span> 
+          <span class="dot" onclick="currentSlide(24)"></span> 
+          <span class="dot" onclick="currentSlide(25)"></span> 
+          <span class="dot" onclick="currentSlide(26)"></span> 
+          <span class="dot" onclick="currentSlide(27)"></span> 
+          <span class="dot" onclick="currentSlide(28)"></span> 
+          <span class="dot" onclick="currentSlide(29)"></span> 
+          <span class="dot" onclick="currentSlide(30)"></span> 
+          <span class="dot" onclick="currentSlide(31)"></span> 
+          <span class="dot" onclick="currentSlide(32)"></span> 
+          <span class="dot" onclick="currentSlide(33)"></span> 
+          <span class="dot" onclick="currentSlide(34)"></span> 
+          <span class="dot" onclick="currentSlide(35)"></span> 
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ NEWSPAPER CUTTINGS ═══════════════ -->
+    <section class="newspaper-section" id="newspaper-cuttings" aria-label="Newspaper Cuttings">
+      <div class="section-inner">
+        <h2 class="section-title text-center" data-animate="fade-up" data-i18n="newspaper.title" style="text-align: center;">Newspaper Cuttings</h2>
+        <p class="section-subtitle text-center" data-animate="fade-up" data-i18n="newspaper.desc" style="max-width: 600px; margin: 0 auto 2rem auto; text-align: center;">
+          Read what the local press has to say about our recent events and graduations.
+        </p>
+
+        <div class="newspaper-collage">
+          <div class="newspaper-item" data-animate="fade-up" style="transition-delay: 0.1s;">
+            <img src="assets/images/newspaper/news-1.jpg" alt="Newspaper Cutting 1" loading="lazy" onclick="openModal(this.src)" style="cursor: pointer;">
+          </div>
+          <div class="newspaper-item" data-animate="fade-up" style="transition-delay: 0.2s;">
+            <img src="assets/images/newspaper/news-2.jpg" alt="Newspaper Cutting 2" loading="lazy" onclick="openModal(this.src)" style="cursor: pointer;">
+          </div>
+          <div class="newspaper-item" data-animate="fade-up" style="transition-delay: 0.3s;">
+            <img src="assets/images/newspaper/news-3.png" alt="Newspaper Cutting 3" loading="lazy" onclick="openModal(this.src)" style="cursor: pointer;">
+          </div>
+          <div class="newspaper-item" data-animate="fade-up" style="transition-delay: 0.4s;">
+            <img src="assets/images/newspaper/news-4.png" alt="Newspaper Cutting 4" loading="lazy" onclick="openModal(this.src)" style="cursor: pointer;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ PROSPECTUS OVERVIEW ═══════════════ -->
+    <section class="prospectus-section" id="prospectus-overview" aria-label="Prospectus and AIECCE Overview">
+      <div class="section-inner">
+        <div class="prospectus-grid">
+          <div class="prospectus-image-wrap" data-animate="fade-up">
+            <img src="assets/images/prospectus/prospectus-cover.jpg" alt="NTT Prospectus Cover" class="prospectus-img-card" />
+          </div>
+          <div class="prospectus-content" data-animate="fade-left">
+            <span class="section-tag" data-i18n="pros.tag">The Official Guide</span>
+            <h2 class="section-title" data-i18n="pros.title">Glimpses of AIECCE / N.T.T.</h2>
+            <p class="section-desc" data-i18n="pros.desc1">All India Early Childhood Care & Education (AIECCE) is a pioneer organization dedicated to providing high-quality pre-primary teacher training across India. Our comprehensive curriculum is crafted by seasoned educational experts.</p>
+            <p class="section-desc" data-i18n="pros.desc2">In collaboration with the Indira Gandhi School of Education (ISO 9001:2015 Certified), we ensure our trainees receive both profound theoretical insights and practical classroom methodologies.</p>
+            <a href="assets/images/prospectus/glimpses.jpg" target="_blank" class="btn btn-outline" style="margin-top: 1rem;" data-i18n="pros.btn">View Full Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ TRUST STRIP ═══════════════ -->
+    <section class="trust-strip" id="accreditation" aria-label="Accreditation and trust badges">
+      <div class="trust-header">
+        <span class="section-tag"   data-i18n="trust.tag">Accreditation &amp; Recognition</span>
+        <h2 class="trust-title"     data-i18n="trust.title">Nationally &amp; Internationally Recognized</h2>
+        <p class="trust-subtitle"   data-i18n="trust.subtitle">Our program holds prestigious accreditations ensuring your certification is valued across India and globally.</p>
+      </div>
+      <div class="trust-badges">
+
+        <div class="trust-badge" data-animate="fade-up" style="--delay:0s">
+          <div class="badge-icon-wrap badge-ruby">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3 class="badge-title" data-i18n="trust.b1.title">AIECCE</h3>
+          <p  class="badge-org"   data-i18n-html="trust.b1.org">All India Early Childhood<br/>Care &amp; Education</p>
+          <div class="badge-meta" data-i18n="trust.b1.meta">Regd. Govt. of NCT of Delhi</div>
+          <div class="badge-reg"  data-i18n="trust.b1.reg">Reg No. S-43128</div>
+        </div>
+
+        <div class="trust-badge" data-animate="fade-up" style="--delay:0.15s">
+          <div class="badge-icon-wrap badge-navy">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <h3 class="badge-title" data-i18n="trust.b2.title">Govt. of India</h3>
+          <p  class="badge-org"   data-i18n-html="trust.b2.org">Ministry of Human Resource<br/>Development</p>
+          <div class="badge-meta" data-i18n="trust.b2.meta">CR Registered (Secondary &amp; Higher Education)</div>
+          <div class="badge-reg"  data-i18n="trust.b2.reg">CR Reg No. L-25438/2005</div>
+        </div>
+
+        <div class="trust-badge" data-animate="fade-up" style="--delay:0.3s">
+          <div class="badge-icon-wrap badge-gold">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3 class="badge-title" data-i18n="trust.b3.title">IAO</h3>
+          <p  class="badge-org"   data-i18n-html="trust.b3.org">International Accreditation<br/>Organization</p>
+          <div class="badge-meta" data-i18n="trust.b3.meta">Houston, U.S.A.</div>
+          <div class="badge-reg"  data-i18n="trust.b3.reg">Globally Recognized Standard</div>
+        </div>
+
+        <div class="trust-badge" data-animate="fade-up" style="--delay:0.45s">
+          <div class="badge-icon-wrap" style="background: rgba(2,132,199,0.1); color: #0284c7; --c: #0284c7;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3 class="badge-title" data-i18n="trust.b5.title">ISO Certified</h3>
+          <p  class="badge-org"   data-i18n-html="trust.b5.org">Indira Gandhi School<br/>of Education</p>
+          <div class="badge-meta" data-i18n="trust.b5.meta">ISO 9001:2015 Certified</div>
+          <div class="badge-reg"  data-i18n="trust.b5.reg">Collaborator</div>
+        </div>
+
+        <div class="trust-badge" data-animate="fade-up" style="--delay:0.6s">
+          <div class="badge-icon-wrap badge-teal">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3 class="badge-title" data-i18n="trust.b4.title">BRM College</h3>
+          <p  class="badge-org"   data-i18n-html="trust.b4.org">Study Centre – 6550<br/>Munger, Bihar</p>
+          <div class="badge-meta" data-i18n="trust.b4.meta">Organized by A-1 Udyamita</div>
+          <div class="badge-reg"  data-i18n="trust.b4.reg">Vikas Kendra, Patna</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ ABOUT / HIGHLIGHTS ═══════════════ -->
+    <section class="about-section" id="about" aria-label="About the NTT program">
+      <div class="section-inner">
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-tag"  data-i18n="about.tag">Why Choose Us</span>
+          <h2 class="section-title"  data-i18n="about.title">Why the NTT Program at BRM College?</h2>
+          <p class="section-desc"    data-i18n="about.desc">A meticulously designed certification that equips you with both theoretical knowledge and practical classroom skills for early childhood education.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card" data-animate="fade-up" style="--delay:0s">
+            <div class="about-card-icon" style="--c:#8b1a1a">📚</div>
+            <h3 data-i18n="about.c1.title">Comprehensive Curriculum</h3>
+            <p  data-i18n="about.c1.desc">Covering child psychology, Montessori methods, activity planning, health &amp; nutrition — all aligned with NCF guidelines.</p>
+          </div>
+          <div class="about-card" data-animate="fade-up" style="--delay:0.1s">
+            <div class="about-card-icon" style="--c:#1a3a6b">🎓</div>
+            <h3 data-i18n="about.c2.title">Expert Faculty</h3>
+            <p  data-i18n="about.c2.desc">Learn from experienced educators, child development specialists, and ECCE practitioners with decades of hands-on experience.</p>
+          </div>
+          <div class="about-card" data-animate="fade-up" style="--delay:0.2s">
+            <div class="about-card-icon" style="--c:#b8860b">🏅</div>
+            <h3 data-i18n="about.c3.title">Nationally Valid Certificate</h3>
+            <p  data-i18n="about.c3.desc">Your NTT certificate is recognized by schools and preschools across India, opening doors to a fulfilling teaching career.</p>
+          </div>
+          <div class="about-card" data-animate="fade-up" style="--delay:0.3s">
+            <div class="about-card-icon" style="--c:#2d6a4f">🌿</div>
+            <h3 data-i18n="about.c4.title">Flexible Learning</h3>
+            <p  data-i18n="about.c4.desc">Designed for working professionals and fresh graduates. Attend evening batches or weekend intensive sessions.</p>
+          </div>
+          <div class="about-card" data-animate="fade-up" style="--delay:0.4s">
+            <div class="about-card-icon" style="--c:#8b1a1a">🤝</div>
+            <h3 data-i18n="about.c5.title">Placement Support</h3>
+            <p  data-i18n="about.c5.desc">Our dedicated placement cell connects graduates with top preschool chains, NGOs, and government Anganwadi centers.</p>
+          </div>
+          <div class="about-card" data-animate="fade-up" style="--delay:0.5s">
+            <div class="about-card-icon" style="--c:#1a3a6b">💡</div>
+            <h3 data-i18n="about.c6.title">Practical Training</h3>
+            <p  data-i18n="about.c6.desc">Mandatory internship at partner nursery schools gives you real classroom experience before you graduate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ CURRICULUM ═══════════════ -->
+    <section class="curriculum-section" id="curriculum" aria-label="Course curriculum">
+      <div class="section-inner">
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-tag"  data-i18n="curr.tag">Program Structure</span>
+          <h2 class="section-title"  data-i18n="curr.title">NTT Course Curriculum</h2>
+          <p class="section-desc"    data-i18n="curr.desc">A structured one-year program designed to build complete competency in early childhood education.</p>
+        </div>
+        <div class="curriculum-grid">
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0s">
+            <div class="curriculum-num">01</div>
+            <h3 data-i18n="curr.c1.title">Child Growth &amp; Development</h3>
+            <p  data-i18n="curr.c1.desc">Understanding developmental milestones, learning theories, and age-appropriate pedagogy for 0–6 years.</p>
+          </div>
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0.1s">
+            <div class="curriculum-num">02</div>
+            <h3 data-i18n="curr.c2.title">Psychology of Early Learning</h3>
+            <p  data-i18n="curr.c2.desc">Cognitive, emotional, social development; Piaget, Vygotsky, and play-based learning frameworks.</p>
+          </div>
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0.2s">
+            <div class="curriculum-num">03</div>
+            <h3 data-i18n="curr.c3.title">Activity &amp; Lesson Planning</h3>
+            <p  data-i18n="curr.c3.desc">Designing theme-based lesson plans, craft activities, storytelling sessions, and daily classroom routines.</p>
+          </div>
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0.3s">
+            <div class="curriculum-num">04</div>
+            <h3 data-i18n="curr.c4.title">Health, Nutrition &amp; Safety</h3>
+            <p  data-i18n="curr.c4.desc">Child health basics, first aid, nutrition for toddlers, and creating safe learning environments.</p>
+          </div>
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0.4s">
+            <div class="curriculum-num">05</div>
+            <h3 data-i18n="curr.c5.title">Language &amp; Communication</h3>
+            <p  data-i18n="curr.c5.desc">Early literacy strategies, bilingual classrooms, storytelling, phonics, and parent communication.</p>
+          </div>
+          <div class="curriculum-card" data-animate="fade-up" style="--delay:0.5s">
+            <div class="curriculum-num">06</div>
+            <h3 data-i18n="curr.c6.title">Practicum &amp; Internship</h3>
+            <p  data-i18n="curr.c6.desc">Supervised teaching practice at affiliated preschools with mentored feedback and evaluation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ EXAMINATION & CERTIFICATION ═══════════════ -->
+    <section class="exam-section" id="examination" aria-label="Examination and Certification">
+      <div class="section-inner">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+          <div class="exam-content" data-animate="fade-up">
+            <span class="section-tag" data-i18n="exam.tag">Assessment</span>
+            <h2 class="section-title" data-i18n="exam.title">Final Examination & Certification</h2>
+            <p class="section-desc" data-i18n="exam.desc1">Final examinations are held in May every year. Candidates must strictly follow the rules and regulations outlined in the Prospectus.</p>
+            <ul class="exam-list" style="text-align: left; display: inline-block;">
+              <li data-i18n="exam.l1">The NTT certification is highly valued for pre-primary, private, and public schools.</li>
+              <li data-i18n="exam.l2">Our training develops self-confidence, making you fully equipped to open and run your own Nursery School.</li>
+              <li data-i18n="exam.l3">Successful students are issued an official Mark-Sheet and Certificate upon qualifying.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ COURSE DETAILS (FEES & BOOKS) ═══════════════ -->
+    <section class="details-section" id="course-details" aria-label="Fees and Study Materials">
+      <div class="section-inner details-grid">
+        
+        <!-- Fee Structure -->
+        <div class="fee-panel" data-animate="fade-up">
+          <div class="panel-header">
+            <span class="panel-icon">💳</span>
+            <h2 data-i18n="fees.title">Fee Structure</h2>
+            <p  data-i18n="fees.desc">Transparent pricing for the complete certification program.</p>
+          </div>
+          <div class="fee-list" style="text-align: center; padding: 2rem 0; display: block;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🔒</div>
+            <h3 style="font-size: 1.2rem; color: var(--navy-dark); margin-bottom: 0.5rem;" data-i18n="fees.hiddenTitle">Fee Details Available on Request</h3>
+            <p style="color: var(--text-mid); margin-bottom: 1.5rem;" data-i18n="fees.hiddenDesc">Please contact our program coordinator to get the complete fee structure and available scholarship details.</p>
+            <a href="tel:8409380779" class="btn btn-primary" data-i18n="fees.hiddenBtn">📞 Call for Details</a>
+          </div>
+        </div>
+
+        <!-- Study Materials -->
+        <div class="books-panel" data-animate="fade-up" style="--delay:0.15s">
+          <div class="panel-header">
+            <span class="panel-icon">📖</span>
+            <h2 data-i18n="books.title">Study Materials & ID Card</h2>
+            <p  data-i18n="books.desc">Comprehensive resources and official student identification.</p>
+          </div>
+          <div class="books-content">
+            <img src="assets/images/prospectus/study-materials.jpg" alt="NTT Study Books and ID Card" class="study-materials-img" />
+            <p data-i18n="books.manualDesc" style="margin-top: 1rem;">Educational experts from various parts of the country have written books in Hindi, English, Punjabi & Regional Languages for the Theory and Practical study. The "A.I.E.C.C.E NTT Manual" provides a comprehensive review of Early Childhood Education in India.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════ ELIGIBILITY + FORM ═══════════════ -->
+    <section class="interactive-section" id="eligibility" aria-label="Eligibility checker and application form">
+      <div class="section-inner">
+        <div class="interactive-grid">
+
+          <!-- Eligibility Checker -->
+          <div class="eligibility-panel" data-animate="fade-up">
+            <div class="panel-header">
+              <span class="panel-icon">✅</span>
+              <h2 data-i18n="elig.title">Eligibility Checker</h2>
+              <p  data-i18n="elig.desc">Answer 2 quick questions to see if you qualify for the NTT program.</p>
+            </div>
+            <div class="eligibility-steps" id="eligibility-steps">
+
+              <div class="elig-step active" id="elig-step-1">
+                <div class="step-indicator">
+                  <span class="step-num active">1</span>
+                  <div class="step-line"></div>
+                  <span class="step-num">2</span>
+                </div>
+                <div class="step-content">
+                  <h3 class="step-question" data-i18n="elig.q1">What is your highest educational qualification?</h3>
+                  <div class="elig-options" role="radiogroup" aria-label="Educational qualification">
+                    <label class="elig-option" id="qual-10th">
+                      <input type="radio" name="qualification" value="10th" />
+                      <span class="elig-option-box">
+                        <span class="elig-opt-icon">📘</span>
+                        <span data-i18n="elig.opt10">10th Pass</span>
+                      </span>
+                    </label>
+                    <label class="elig-option" id="qual-12th">
+                      <input type="radio" name="qualification" value="12th" />
+                      <span class="elig-option-box">
+                        <span class="elig-opt-icon">📗</span>
+                        <span data-i18n="elig.opt12">12th Pass</span>
+                      </span>
+                    </label>
+                    <label class="elig-option" id="qual-grad">
+                      <input type="radio" name="qualification" value="graduate" />
+                      <span class="elig-option-box">
+                        <span class="elig-opt-icon">🎓</span>
+                        <span data-i18n="elig.optGrad">Graduate or Above</span>
+                      </span>
+                    </label>
+                  </div>
+                  <button class="btn btn-primary" id="elig-next-btn" disabled data-i18n="elig.next">Next Step →</button>
+                </div>
+              </div>
+
+              <div class="elig-step" id="elig-step-2">
+                <div class="step-indicator">
+                  <span class="step-num done">✓</span>
+                  <div class="step-line active"></div>
+                  <span class="step-num active">2</span>
+                </div>
+                <div class="step-content">
+                  <h3 class="step-question" data-i18n="elig.q2">Do you have a passion for working with young children?</h3>
+                  <div class="elig-options" role="radiogroup" aria-label="Passion for children">
+                    <label class="elig-option" id="passion-yes">
+                      <input type="radio" name="passion" value="yes" />
+                      <span class="elig-option-box">
+                        <span class="elig-opt-icon">❤️</span>
+                        <span data-i18n="elig.optYes">Yes, absolutely!</span>
+                      </span>
+                    </label>
+                    <label class="elig-option" id="passion-learning">
+                      <input type="radio" name="passion" value="learning" />
+                      <span class="elig-option-box">
+                        <span class="elig-opt-icon">🌱</span>
+                        <span data-i18n="elig.optLearn">I'm eager to learn</span>
+                      </span>
+                    </label>
+                  </div>
+                  <div class="elig-btn-row">
+                    <button class="btn btn-outline" id="elig-back-btn"  data-i18n="elig.back">← Back</button>
+                    <button class="btn btn-primary" id="elig-check-btn" data-i18n="elig.check" disabled>Check Eligibility</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="elig-step" id="elig-result">
+                <div class="elig-result-content" id="elig-result-content"></div>
+                <button class="btn btn-outline" id="elig-restart-btn" style="margin-top:1.5rem" data-i18n="elig.restart">Start Over</button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Lead Capture Form -->
+          <div class="form-panel" id="apply" data-animate="fade-up" style="--delay:0.15s">
+            <div class="panel-header">
+              <span class="panel-icon">📋</span>
+              <h2 data-i18n="form.title">Request Course Details</h2>
+              <p  data-i18n="form.desc">Fill in your details and our coordinator will contact you within 24 hours.</p>
+            </div>
+            <form class="lead-form" id="lead-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fname" class="form-label"><span data-i18n="form.fname">Full Name</span> <span aria-hidden="true">*</span></label>
+                  <input type="text" id="fname" name="fname" class="form-input" data-i18n-ph="form.fnamePh" placeholder="Your Full Name" required autocomplete="name" />
+                  <span class="form-error" id="fname-error"></span>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label"><span data-i18n="form.phone">Phone Number</span> <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" inputmode="tel" />
+                  <span class="form-error" id="phone-error"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label" data-i18n="form.email">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" data-i18n-ph="form.emailPh" placeholder="your@email.com" autocomplete="email" />
+              </div>
+              <div class="form-group">
+                <label for="qualification-select" class="form-label"><span data-i18n="form.qual">Highest Qualification</span> <span aria-hidden="true">*</span></label>
+                <select id="qualification-select" name="qualification" class="form-input" required>
+                  <option value="" disabled selected data-i18n="form.qualPh">Select your qualification</option>
+                  <option value="10th"          data-i18n="form.q10">10th Pass</option>
+                  <option value="12th"          data-i18n="form.q12">12th Pass / Intermediate</option>
+                  <option value="graduate"      data-i18n="form.qGrad">Graduate (B.A. / B.Sc. / B.Com)</option>
+                  <option value="postgraduate"  data-i18n="form.qPG">Post Graduate</option>
+                  <option value="other"         data-i18n="form.qOther">Other</option>
+                </select>
+                <span class="form-error" id="qual-error"></span>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label" data-i18n="form.msg">Your Query (Optional)</label>
+                <textarea id="message" name="message" class="form-input form-textarea" data-i18n-ph="form.msgPh" placeholder="Any specific questions about the program, fees, duration…" rows="3"></textarea>
+              </div>
+              <div class="h-captcha" data-captcha="true" style="margin-bottom: 1rem;"></div>
+              
+              <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                <span data-i18n="form.submit">Send My Request</span>
+              </button>
+              <p class="form-privacy" data-i18n="form.privacy">🔒 Your information is safe with us. No spam, ever.</p>
+            </form>
+            <div class="form-success" id="form-success" hidden>
+              <div class="success-icon">🎉</div>
+              <h3 data-i18n="form.successTitle">Request Sent!</h3>
+              <p data-i18n-html="form.successMsg">Thank you! Our coordinator <strong>Sangeeta Mishra</strong> will reach out to you within 24 hours.</p>
+              <a href="tel:8409380779" class="btn btn-primary" style="margin-top:1rem">
+                📞 <span data-i18n="form.successCall">Call Us Now: 8409380779</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+    <section class="testimonials-section" aria-label="Student testimonials">
+      <div class="section-inner">
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-tag"  data-i18n="test.tag">Student Stories</span>
+          <h2 class="section-title"  data-i18n="test.title">What Our Graduates Say</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-animate="fade-up" style="--delay:0s">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="test.t1">"The NTT program at BRM College completely transformed my confidence. I now lead a class of 25 toddlers at a reputed preschool in Munger. The faculty were incredibly supportive."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">🎓</div>
+              <div>
+                <div class="author-name" data-i18n="test.n1">Priya Mishra</div>
+                <div class="author-role" data-i18n="test.r1">NTT Graduate, 2023 · Now teaching at Kidzee, Munger</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-animate="fade-up" style="--delay:0.15s">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="test.t2">"I joined after my 12th and wasn't sure about my future. This program gave me a clear career path and a nationally recognized certificate that opened so many doors."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #1a3a6b, #2e5fa3)">🎓</div>
+              <div>
+                <div class="author-name" data-i18n="test.n2">Anita Kumari</div>
+                <div class="author-role" data-i18n="test.r2">NTT Graduate, 2022 · Runs her own Playgroup in Bhagalpur</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card" data-animate="fade-up" style="--delay:0.3s">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text" data-i18n="test.t3">"Coordinator Sangeeta Ma'am was always there to guide us. The practical training and internship experience made me industry-ready from day one."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #b8860b, #d4a017)">🎓</div>
+              <div>
+                <div class="author-name" data-i18n="test.n3">Rekha Singh</div>
+                <div class="author-role" data-i18n="test.r3">NTT Graduate, 2024 · Early Education Lead, Patna</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="contact" aria-label="Contact and footer information">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,0 L0,0 Z" class="footer-wave-path"/>
+      </svg>
+    </div>
+    <div class="footer-inner">
+
+      <div class="footer-bbbp" data-animate="fade-up">
+        <div class="bbbp-badge">
+          <img src="assets/images/prospectus/back-cover.jpg" alt="Beti Bachao Beti Padhao" class="bbbp-cover-img" />
+          <div class="bbbp-text-content">
+            <span class="bbbp-icon">👧</span>
+            <div>
+              <div class="bbbp-title" data-i18n="footer.bbbpTitle">बेटी है वरदान, इसका करो सम्मान</div>
+              <div class="bbbp-sub" data-i18n="footer.bbbpSub">Beti Bachao, Beti Padhao</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">🎓 BRM College, Munger</div>
+          <p class="footer-tagline"   data-i18n="footer.tagline">Study Centre-6550 · Transforming Lives Through Quality Early Education</p>
+          <p class="footer-organized"><span data-i18n="footer.orgLabel">Organized by:</span> <strong data-i18n="footer.orgName">A-1 Udyamita Vikas Kendra, Patna</strong></p>
+          <p class="footer-organized"><span data-i18n="footer.sponLabel">Sponsored by:</span> <strong data-i18n="footer.sponName">All India Early Childhood Care &amp; Education (AIECCE)</strong></p>
+        </div>
+
+        <div class="footer-contact-block">
+          <h3 class="footer-contact-title" data-i18n="footer.contactTitle">📍 Contact Us</h3>
+          <div class="coordinator-card">
+            <div class="coord-avatar">SM</div>
+            <div class="coord-info">
+              <div class="coord-role" data-i18n="footer.coordRole">Program Co-Ordinator</div>
+              <div class="coord-name">Sangeeta Mishra</div>
+              <div class="coord-note" data-i18n="footer.coordNote">Available Mon–Sat · 9 AM – 6 PM</div>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a href="tel:8409380779" class="contact-btn contact-call" id="footer-call-btn" aria-label="Call Sangeeta Mishra at 8409380779">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              <span data-i18n="footer.callBtn">Call: 8409380779</span>
+            </a>
+            <a href="https://wa.me/918409380779?text=Hello%2C%20I%27m%20interested%20in%20the%20NTT%20program%20at%20BRM%20College%2C%20Munger.%20Please%20share%20details." target="_blank" rel="noopener noreferrer" class="contact-btn contact-whatsapp" id="footer-whatsapp-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              <span data-i18n="footer.waBtn">WhatsApp Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-accreditation-bar">
+        <span class="foot-acc-item">✦ AIECCE Regd. Govt. of NCT of Delhi (Reg. No. S-43128)</span>
+        <span class="foot-acc-sep">|</span>
+        <span class="foot-acc-item">✦ CR Regd. Ministry of HRD, Govt. of India (CR Reg. No. L-25438/2005)</span>
+        <span class="foot-acc-sep">|</span>
+        <span class="foot-acc-item">✦ IAO Accredited – Houston, U.S.A.</span>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer.copy">© 2025 BRM College, Munger. All Rights Reserved. · NTT Program by AIECCE</p>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">This page is for informational purposes. For official details, contact the coordinator directly.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta" id="floating-cta" aria-label="Quick contact actions">
+    <a href="tel:8409380779" class="float-btn float-call" id="float-call-btn" aria-label="Call now">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+      <span data-i18n="float.call">Call</span>
+    </a>
+    <a href="https://wa.me/918409380779?text=Hello%2C%20I%27m%20interested%20in%20the%20NTT%20program%20at%20BRM%20College%2C%20Munger." target="_blank" rel="noopener noreferrer" class="float-btn float-wa" id="float-whatsapp-btn" aria-label="WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span data-i18n="float.wa">WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="image-modal" onclick="closeModal()">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+
+  <!-- Web3Forms hCaptcha Script -->
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script src="main.js?v=8"></script>
+</body>
+</html>
