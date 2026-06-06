@@ -1236,6 +1236,28 @@ ul { list-style: none; }
 }
 
 @media (max-width: 768px) {
+  /* Navbar Mobile Adjustments */
+  .nav-inner {
+    padding: 0 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .nav-logo {
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0; /* allows text truncation/wrapping */
+  }
+  .nav-logo-icon {
+    font-size: 1.5rem;
+  }
+  .nav-college {
+    font-size: 0.85rem;
+    white-space: normal;
+  }
+  .nav-sub {
+    font-size: 0.6rem;
+  }
+
   .hero-inner {
     grid-template-columns: 1fr;
     gap: 2.5rem;
