@@ -755,18 +755,15 @@ window.slideInterval = null;
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("slide");
-  let dots = document.getElementsByClassName("dot");
   if (!slides.length) return;
   if (n > slides.length) {window.slideIndex = 1}    
   if (n < 1) {window.slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
+
   slides[window.slideIndex-1].style.display = "block";  
-  dots[window.slideIndex-1].className += " active";
+
 }
 
 window.changeSlide = function(n) {
@@ -774,10 +771,7 @@ window.changeSlide = function(n) {
   resetInterval();
 }
 
-window.currentSlide = function(n) {
-  showSlides(window.slideIndex = n);
-  resetInterval();
-}
+
 
 function resetInterval() {
   clearInterval(window.slideInterval);
