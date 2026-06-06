@@ -54,6 +54,9 @@
 html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -61,7 +64,10 @@ body {
   background-color: var(--cream);
   color: var(--text-dark);
   line-height: 1.6;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+  position: relative;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1245,17 +1251,26 @@ ul { list-style: none; }
   .nav-logo {
     gap: 0.5rem;
     flex: 1;
-    min-width: 0; /* allows text truncation/wrapping */
+    max-width: calc(100vw - 80px); /* Leave room for hamburger icon */
+    overflow: hidden;
   }
   .nav-logo-icon {
     font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  .nav-logo-text {
+    min-width: 0;
   }
   .nav-college {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     white-space: normal;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1.1;
   }
   .nav-sub {
     font-size: 0.6rem;
+    display: block;
   }
 
   .hero-inner {
