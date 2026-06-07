@@ -18,7 +18,7 @@ const T = {
 
     /* Hero */
     'hero.badge':      'Admissions Open 2026–27',
-    'hero.headline':   'Join <em class="hero-em">Nursery Teachers</em><br />Training (N.T.T)',
+    'hero.headline':   'Join <em class="hero-em">Nursery Teachers</em><br />Training (N.T.T) in <em class="hero-em">MUNGER</em>',
     'hero.subheadline':'Enroll in the <strong>NTT Certification</strong> at BRM College, Munger and become a nationally recognized, professionally trained Nursery Teacher.',
     'hero.pill1':      '🏛 AIECCE Sponsored',
     'hero.pill2':      '📜 Govt. of India Recognized',
