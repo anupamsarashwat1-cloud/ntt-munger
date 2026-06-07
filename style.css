@@ -1299,6 +1299,8 @@ ul { list-style: none; }
 
   .interactive-grid,
   .details-grid,
+  .prospectus-grid,
+  .exam-grid,
   .footer-top { grid-template-columns: 1fr; }
 
   .about-grid,
