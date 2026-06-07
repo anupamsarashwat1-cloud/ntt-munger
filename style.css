@@ -633,7 +633,7 @@ ul { list-style: none; }
 /* ─── ABOUT / HIGHLIGHTS ─── */
 .about-section {
   padding: 6rem 1.5rem;
-  background: linear-gradient(180deg, var(--cream) 0%, #eef3fa 100%);
+  background: linear-gradient(180deg, var(--cream) 0%, var(--pink-light) 100%);
 }
 
 .about-grid {
@@ -683,7 +683,7 @@ ul { list-style: none; }
 /* ─── CURRICULUM ─── */
 .curriculum-section {
   padding: 6rem 1.5rem;
-  background: white;
+  background: var(--cream);
 }
 
 .curriculum-grid {
@@ -740,7 +740,7 @@ ul { list-style: none; }
 /* ─── COURSE DETAILS (FEES & BOOKS) ─── */
 .details-section {
   padding: 6rem 1.5rem;
-  background: white;
+  background: var(--pink-light);
 }
 
 .details-grid {
@@ -813,7 +813,7 @@ ul { list-style: none; }
 /* ─── INTERACTIVE SECTION ─── */
 .interactive-section {
   padding: 6rem 1.5rem;
-  background: linear-gradient(160deg, #f0f4ff 0%, var(--cream) 100%);
+  background: linear-gradient(160deg, var(--pink-light) 0%, var(--cream) 100%);
 }
 
 .interactive-grid {
@@ -993,7 +993,7 @@ ul { list-style: none; }
 /* ─── TESTIMONIALS ─── */
 .testimonials-section {
   padding: 6rem 1.5rem;
-  background: linear-gradient(180deg, #eef3fa 0%, white 100%);
+  background: linear-gradient(180deg, var(--cream) 0%, var(--pink-light) 100%);
 }
 
 .testimonials-grid {
@@ -1604,7 +1604,7 @@ ul { list-style: none; }
 /* ─── NEW PROSPECTUS & IMAGES STYLES ─── */
 .prospectus-section, .exam-section {
   padding: 6rem 1.5rem;
-  background: white;
+  background: var(--cream);
 }
 .prospectus-grid, .exam-grid {
   display: grid;
@@ -1624,7 +1624,7 @@ ul { list-style: none; }
   display: block;
 }
 .exam-section {
-  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  background: linear-gradient(180deg, var(--pink-light) 0%, var(--cream) 100%);
 }
 .exam-list {
   margin-top: 1.5rem;
@@ -1683,7 +1683,7 @@ ul { list-style: none; }
 /* ─── SLIDESHOW GALLERY ─── */
 .gallery-section {
   padding: 4rem 1.5rem;
-  background: var(--surface-light);
+  background: var(--pink-light);
 }
 [data-theme="dark"] .gallery-section {
   background: var(--navy-base);
@@ -1756,7 +1756,7 @@ ul { list-style: none; }
    ========================================================================== */
 .newspaper-section {
   padding: var(--spacing-xxl) 0;
-  background-color: var(--surface-light);
+  background-color: var(--cream);
 }
 
 .newspaper-collage {
