@@ -90,7 +90,7 @@ const T = {
     'about.c4.title': 'Flexible Learning',
     'about.c4.desc':  'Designed for working professionals and fresh graduates. Attend evening batches or weekend intensive sessions.',
     'about.c5.title': 'Placement Support',
-    'about.c5.desc':  'Our dedicated placement cell connects graduates with top preschool chains, NGOs, and government Anganwadi centers.',
+    'about.c5.desc':  'Our dedicated placement cell connects graduates with top preschool chains and government Anganwadi centers.',
     'about.c6.title': 'Practical Training',
     'about.c6.desc':  'Mandatory internship at partner nursery schools gives you real classroom experience before you graduate.',
 
@@ -303,7 +303,7 @@ const T = {
     'about.c4.title': 'लचीली शिक्षा',
     'about.c4.desc':  'कामकाजी पेशेवरों और नए स्नातकों के लिए बनाया गया। शाम के बैच या सप्ताहांत कक्षाओं में शामिल हों।',
     'about.c5.title': 'प्लेसमेंट सहायता',
-    'about.c5.desc':  'हमारी प्लेसमेंट सेल स्नातकों को शीर्ष प्री-स्कूल, NGO और सरकारी आंगनवाड़ी केंद्रों से जोड़ती है।',
+    'about.c5.desc':  'हमारी प्लेसमेंट सेल स्नातकों को शीर्ष प्री-स्कूल और सरकारी आंगनवाड़ी केंद्रों से जोड़ती है।',
     'about.c6.title': 'व्यावहारिक प्रशिक्षण',
     'about.c6.desc':  'सहयोगी नर्सरी स्कूलों में अनिवार्य इंटर्नशिप से आपको वास्तविक कक्षा का अनुभव मिलता है।',
 

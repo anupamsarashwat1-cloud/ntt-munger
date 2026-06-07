@@ -1446,7 +1446,7 @@ ul { list-style: none; }
   background: rgba(13,20,35,0.98);
   border-color: rgba(255,255,255,0.06);
 }
-[data-theme="dark"] .nav-hamburger span { background: var(--text-dark); }
+[data-theme="dark"] .nav-hamburger span { background: var(--white); }
 [data-theme="dark"] .toggle-btn {
   background: rgba(255,255,255,0.1);
   border-color: rgba(255,255,255,0.2);
