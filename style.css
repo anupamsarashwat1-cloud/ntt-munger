@@ -9,6 +9,7 @@
   --ruby-light: #b22222;
   --ruby-dark:  #6b1414;
   --pink-light: #fce4ec;
+  --pink-mid:   #f8bbd0;
   --navy:       #1a3a6b;
   --navy-light: #2e5fa3;
   --navy-dark:  #0f2347;
@@ -590,7 +591,7 @@ ul { list-style: none; }
 }
 
 .trust-badge {
-  background: var(--pink-light);
+  background: var(--pink-mid);
   border-radius: var(--radius-md);
   padding: 2rem 1.5rem;
   text-align: center;
@@ -668,7 +669,7 @@ ul { list-style: none; }
 }
 
 .about-card {
-  background: var(--pink-light);
+  background: var(--pink-mid);
   border-radius: var(--radius-md);
   padding: 2rem;
   border: 1px solid rgba(233, 30, 99, 0.15);
@@ -718,7 +719,7 @@ ul { list-style: none; }
 }
 
 .curriculum-card {
-  background: var(--pink-light);
+  background: var(--pink-mid);
   border-radius: var(--radius-md);
   padding: 2rem;
   border: 1px solid rgba(233, 30, 99, 0.15);
@@ -1421,6 +1422,7 @@ ul { list-style: none; }
 [data-theme="dark"] {
   --cream:      #0d1423;
   --pink-light: #0d1423;
+  --pink-mid:   #141c2f;
   --white:      #1a2638;
   --text-dark:  #dde4f5;
   --text-mid:   #8fa3c8;
