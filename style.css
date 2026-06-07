@@ -61,6 +61,19 @@ html {
   overflow-x: hidden;
 }
 
+section {
+  position: relative;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--ruby), var(--navy), var(--gold));
+  z-index: 1;
+}
+
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   background-color: var(--pink-light);
@@ -555,13 +568,6 @@ ul { list-style: none; }
   padding: 5rem 1.5rem;
   background: white;
   position: relative;
-}
-.trust-strip::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, var(--ruby), var(--navy), var(--gold));
 }
 
 .trust-header {
