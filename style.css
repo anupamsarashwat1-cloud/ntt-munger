@@ -8,7 +8,7 @@
   --ruby:       #8b1a1a;
   --ruby-light: #b22222;
   --ruby-dark:  #6b1414;
-  --pink-light: #fdf0f4;
+  --pink-light: #fce4ec;
   --navy:       #1a3a6b;
   --navy-light: #2e5fa3;
   --navy-dark:  #0f2347;
@@ -322,7 +322,7 @@ ul { list-style: none; }
 .hero {
   min-height: 100vh;
   padding: 120px 1.5rem 80px;
-  background: linear-gradient(165deg, #ffffff 0%, var(--cream) 40%, #eef3fa 100%);
+  background: linear-gradient(165deg, #ffffff 0%, var(--pink-light) 40%, #f8bbd0 100%);
   position: relative;
   overflow: hidden;
   display: flex;
