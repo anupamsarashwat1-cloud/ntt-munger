@@ -545,6 +545,18 @@ function handleLangToggle() {
     }
   });
 
+  document.addEventListener('click', (e) => {
+    if (mobileMenu && mobileMenu.classList.contains('open')) {
+      if (!mobileMenu.contains(e.target) && (!hamburger || !hamburger.contains(e.target))) {
+        mobileMenu.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+        const bars = hamburger.querySelectorAll('span');
+        bars.forEach(b => { b.style.transform = ''; b.style.opacity = ''; });
+      }
+    }
+  });
+
   mobileMenu && mobileMenu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       mobileMenu.classList.remove('open');
