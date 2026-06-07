@@ -33,7 +33,7 @@
 /* ─── Poster Section ─── */
 .poster-section {
   padding: var(--spacing-xxl) 0 0;
-  background-color: var(--cream);
+  background-color: var(--pink-light);
 }
 .poster-container {
   max-width: 800px;
@@ -62,7 +62,7 @@ html {
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background-color: var(--cream);
+  background-color: var(--pink-light);
   color: var(--text-dark);
   line-height: 1.6;
   width: 100%;
@@ -345,7 +345,7 @@ ul { list-style: none; }
 .hero {
   min-height: 100vh;
   padding: 120px 1.5rem 80px;
-  background: linear-gradient(165deg, #ffffff 0%, var(--pink-light) 40%, #f8bbd0 100%);
+  background: var(--pink-light);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -656,7 +656,7 @@ ul { list-style: none; }
 /* ─── ABOUT / HIGHLIGHTS ─── */
 .about-section {
   padding: 6rem 1.5rem;
-  background: var(--cream);
+  background: var(--pink-light);
 }
 
 .about-grid {
@@ -763,7 +763,7 @@ ul { list-style: none; }
 /* ─── COURSE DETAILS (FEES & BOOKS) ─── */
 .details-section {
   padding: 6rem 1.5rem;
-  background: var(--cream);
+  background: var(--pink-light);
 }
 
 .details-grid {
@@ -836,7 +836,7 @@ ul { list-style: none; }
 /* ─── INTERACTIVE SECTION ─── */
 .interactive-section {
   padding: 6rem 1.5rem;
-  background: var(--cream);
+  background: var(--pink-light);
 }
 
 .interactive-grid {
@@ -1016,7 +1016,7 @@ ul { list-style: none; }
 /* ─── TESTIMONIALS ─── */
 .testimonials-section {
   padding: 6rem 1.5rem;
-  background: var(--cream);
+  background: var(--pink-light);
 }
 
 .testimonials-grid {
@@ -1420,6 +1420,7 @@ ul { list-style: none; }
 
 [data-theme="dark"] {
   --cream:      #0d1423;
+  --pink-light: #0d1423;
   --white:      #1a2638;
   --text-dark:  #dde4f5;
   --text-mid:   #8fa3c8;
@@ -1647,7 +1648,7 @@ ul { list-style: none; }
   display: block;
 }
 .exam-section {
-  background: var(--cream);
+  background: var(--pink-light);
 }
 .exam-list {
   margin-top: 1.5rem;
@@ -1706,7 +1707,7 @@ ul { list-style: none; }
 /* ─── SLIDESHOW GALLERY ─── */
 .gallery-section {
   padding: 4rem 1.5rem;
-  background: var(--cream);
+  background: var(--pink-light);
 }
 [data-theme="dark"] .gallery-section {
   background: var(--navy-base);
