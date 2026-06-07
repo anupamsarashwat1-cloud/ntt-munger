@@ -1811,6 +1811,12 @@ ul { list-style: none; }
   .prospectus-grid, .exam-grid {
     grid-template-columns: 1fr;
   }
+  .interactive-section {
+    padding: 3rem 1rem;
+  }
+  .eligibility-panel, .form-panel {
+    padding: 1.5rem 1rem;
+  }
 }
 
 .newspaper-item {
