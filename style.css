@@ -1702,7 +1702,7 @@ ul { list-style: none; }
   border-radius: var(--radius-lg);
   vertical-align: middle;
   object-fit: contain;
-  max-height: 750px;
+  aspect-ratio: 16 / 9;
   width: 100%;
   background: #000;
 }
@@ -1816,6 +1816,9 @@ ul { list-style: none; }
   }
   .eligibility-panel, .form-panel, .fee-panel, .books-panel {
     padding: 1.5rem 1rem;
+  }
+  .slide img {
+    aspect-ratio: 4 / 3;
   }
 }
 
