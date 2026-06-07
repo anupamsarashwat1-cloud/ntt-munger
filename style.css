@@ -1811,10 +1811,10 @@ ul { list-style: none; }
   .prospectus-grid, .exam-grid {
     grid-template-columns: 1fr;
   }
-  .interactive-section {
+  .interactive-section, .details-section {
     padding: 3rem 1rem;
   }
-  .eligibility-panel, .form-panel {
+  .eligibility-panel, .form-panel, .fee-panel, .books-panel {
     padding: 1.5rem 1rem;
   }
 }
