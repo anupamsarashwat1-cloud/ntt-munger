@@ -1279,7 +1279,18 @@ ul { list-style: none; }
   }
   .hero-image-wrap { order: -1; }
   .hero-headline { font-size: 2rem; }
-  .hero-stats { flex-wrap: wrap; gap: 1rem; }
+  .hero-stats {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+  }
+  .stat-number { font-size: 1.1rem; }
+  .stat-plus { font-size: 0.8rem; }
+  .stat-label { font-size: 0.55rem; }
+  .stat-divider { height: 24px; }
   .hero { padding: 100px 1.25rem 60px; }
 
   .nav-links, .nav-cta { display: none; }
