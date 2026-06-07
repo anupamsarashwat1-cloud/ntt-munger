@@ -705,13 +705,6 @@ function handleLangToggle() {
 
     if (!valid) return;
 
-    // hCaptcha Validation
-    const hCaptchaResponse = form.querySelector('textarea[name=h-captcha-response]')?.value;
-    if (!hCaptchaResponse) {
-        alert(t['form.errCaptcha'] || "Please complete the Captcha to submit the form.");
-        return;
-    }
-
     const btn = document.getElementById('form-submit-btn');
     const btnText = btn.querySelector('[data-i18n="form.submit"]');
     if (btnText) btnText.textContent = t['form.sending'] || 'Sending…';
